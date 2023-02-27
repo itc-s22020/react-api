@@ -1,0 +1,8 @@
+:root {
+  background-image: linear-gradient(to right, #6e45e2 0%, #5e34d0 100%);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  user-select: none;
+}
