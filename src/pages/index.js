@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
 import styles from "../styles/index.module.css";
-import Layout from "@/components/layout";
 import React from "react";
 import parse from "html-react-parser"
 
@@ -37,7 +36,6 @@ const Home = () => {
   }
 
   return (
-    <Layout>
       <div>
         <Head>
           <title>s22020 API</title>
@@ -63,7 +61,6 @@ const Home = () => {
 
         </main>
       </div>
-    </Layout>
   );
 }
 
